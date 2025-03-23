@@ -129,3 +129,91 @@
 
 // console.log(newSent);
 
+// // q7
+// let words = ["Apple", "Orange", "Banana"];
+// let vowels = { a: 0, e: 0, i: 0, o: 0, u: 0, A: 0, E: 0, I: 0, O: 0, U: 0 };
+
+// words.forEach((word) => {
+//   word.split("").forEach(letter => {
+//     if (vowels.hasOwnProperty(letter)) {
+//       vowels[letter]++;  // Increase count of vowel
+//     }
+//   });
+// });
+
+// console.log(vowels);
+// q8
+// let input=document.getElementById("input")
+// input.addEventListener("keydown",(event)=>{
+// if(event.key=="Enter"){
+//     let inputVal=input.value;
+//     if(!inputVal){
+//         alert("Please enter a value");
+//     }
+//  let   distanceInFeet=feet(inputVal);
+//  let   distanceInCentimeters=centimeters(inputVal);
+//  let   distanceInInches=inches(inputVal);
+
+//  console.log("feet",distanceInFeet)
+//  console.log("Inches",distanceInInches)
+//  console.log("centimeters",distanceInCentimeters)
+// }
+// })
+// function feet(inputVal){
+//     let feets=inputVal*3280.84;
+//     return feets;
+// }
+// function centimeters(inputVal){
+//     let cent=inputVal*100000;
+//     return cent;
+// }
+// function inches(inputVal){
+//     let inch=inputVal*3937008;
+//     return inch;
+// }
+// q9
+// const standardHours = 40;
+// const overtimeRate = 12; 
+// let overTimePaidOfWeek=(hours)=>{
+
+//     if(hours>standardHours){
+//         let overTimeHours=hours-standardHours;
+//         let overTimePay=overTimeHours*overtimeRate;
+//         return ` overtime pay ${overTimePay} RS of this week`;
+//     }else if(hours==standardHours){
+//         return  `not overtime you have ${standardHours} hours` ;
+//     }else{
+//         return `you have ${hours} hours that not match with weekly work hours` ;
+//     }
+    
+
+// }
+// console.log(overTimePaidOfWeek(40))
+// q10
+// let input=document.getElementById("input")
+// input.addEventListener("keydown",(event)=>{
+//     if(event.key=="Enter"){
+//         let inputVal=input.value;
+//        currencyNotesDenomination(inputVal)
+//     }
+// })
+// const currencyNotesDenomination=(inputVal)=>{
+
+//     if (inputVal % 10 !== 0) {
+//         console.log("Please enter an amount in multiples of 10.");
+//         return;
+//     }
+
+//     let notes100 = Math.floor(inputVal / 100);
+//     let remaining = inputVal % 100;
+
+//     let notes50 = Math.floor(remaining / 50);
+//     remaining %= 50;
+
+//     let notes10 = Math.floor(remaining / 10);
+
+//     console.log(`100 Rs Notes: ${notes100}`);
+//     console.log(`50 Rs Notes: ${notes50}`);
+//     console.log(`10 Rs Notes: ${notes10}`);
+
+// }
