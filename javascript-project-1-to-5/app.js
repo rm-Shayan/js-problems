@@ -92,3 +92,63 @@
 //         list.innerHTML += `<li>Quantity: ${element.quantity}</li>`;
 //     });
 // });
+// chp4
+// q1
+// var a=1,b=3,c="shayan";
+// q2
+// legeal
+// let oscar='kdkk',oscar123='kwk',oscarParty="snkjsa",oscar_cake="kjdjd",oscar$js="jjds",
+// illegeal
+// let 34oscar='kdkk',oscar%^123='kwk',oscar Party="snkjsa",oscar-cake="kjdjd",123="jjds",
+// const heading=document.querySelector(".head")
+// heading.className=`text-teal-400 text-3xxl text-center m-auto`
+// heading.innerHTML="Rules for naming JS variables"
+// const h1=document.createElement("h1")
+// h1.className=`text-teal-400 text-3xxl text-center `
+// h1.innerHTML=`variable name can contain letters number(integer) and dollay sign and also undrscore`
+// document.body.appendChild(h1)
+// const h2=document.createElement("h1")
+// h2.className=`text-teal-400 text-3xxl text-center `
+// h2.innerHTML=` Variables must begin with a letter, underscore (_), or dollar sign ($)`
+// document.body.appendChild(h2)
+// const h3=document.createElement("h1")
+// h3.className=`text-teal-400 text-3xxl text-center `
+// h3.innerHTML=` Variables are case sensitive`
+// document.body.appendChild(h3)
+// const h4=document.createElement("h1")
+// h4.className=`text-teal-400 text-3xxl text-center `
+// h4.innerHTML=` Variables name should'nt js keyword and function()`
+// document.body.appendChild(h4)
+// chp5
+// q1 /Q2
+// let a = prompt(`Enter first number`);
+// let b = prompt(`Enter second number`);
+// let op=prompt(`opeeration`)
+// let c = eval(`${a} ${op} ${b}`);
+// alert(c);
+// q3
+// let number = 5; // You must define it first!
+
+// document.body.innerHTML = `
+// <h1>Initial value: ${number}</h1>
+// <br><h1>Increment value: ${++number}</h1>
+// <br><h1>Add 7 into previous value: ${(number += 7)}</h1>
+// <br><h1>Decrement previous value: ${--number}</h1>
+// <br><h1>Remainder value when divided by 3: ${(number %= 3)}</h1>
+// `;
+// q4
+// let ticketPrice=600;
+// alert(`price of 5 tickets is:${ticketPrice*5}`)
+// q5
+// for (let i = 4; i <= 4; i++) {
+//     for (let j = 1; j <= 10; j++) {
+//         document.body.innerHTML += `<h1 class="text-3xl text-teal-400 px-12 py-4">${i} x ${j} = ${i * j}</h1>`;
+//     }
+// }
+// q5
+// let celsius=prompt(`today temperature in celsius`);
+// let farenheit=prompt(`today temp in  farenheit`);
+// let c=((farenheit-32)*5/9)
+// let f=((celsius*9/5)+32)
+// alert(`${c} CELSIUS`)
+// alert(` ${f}FARENEIT`)
