@@ -152,3 +152,33 @@
 // let f=((celsius*9/5)+32)
 // alert(`${c} CELSIUS`)
 // alert(` ${f}FARENEIT`)
+gsap.registerPlugin(ScrollTrigger);
+gsap.from(".cont-box", {
+    x: -500,
+    opacity: 0,
+    duration: 1.5,
+    scrollTrigger: {
+      trigger: ".cont-box",
+      start: "top 80%",
+      end: "bottom top",
+      scrub: true,
+      pin: true,
+   
+    }
+  });
+
+gsap.from(".box", {
+    opacity: 0,
+    y: 100,
+    scale: 0.8,
+    stagger: 0.3,
+    duration: 1,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".cont-box",
+      start: "top center",
+      end:"center top ",
+      scrub: true,
+    }
+  });
+  
