@@ -7,4 +7,10 @@ this.brand=brand;
 this.model=model;
 this.price=price
     }
+} 
+export class Tesla{
+    constructor(brandVal){
+        super()
+        this.brand=brandVal;
+    }
 }
