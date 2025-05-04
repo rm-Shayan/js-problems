@@ -175,3 +175,11 @@
 
 // const myCar = new Car('Toyota', 'Corolla', 20000);
 // console.log(myCar);
+
+
+const showMessage=()=>{
+    alert(`hi`)
+    showMessage()
+}
+
+    document.addEventListener("DOMContentLoaded",showMessage())
