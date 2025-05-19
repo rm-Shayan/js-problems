@@ -182,3 +182,17 @@ gsap.from(".box", {
     }
   });
   
+
+
+
+function num(a){
+ return function(b){
+  return function(c){
+    return a*b*c
+  }
+  
+}
+
+   }
+
+   console.log(num(2)(2)(2))

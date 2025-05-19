@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "student-tracer",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
